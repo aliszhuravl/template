@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "author": "squalo",
   "devDependencies": {
-    "browser-sync": "^2.27.11",
+    "4": "^0.0.0",
+    "browser-sync": "^2.28.3",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-clean-css": "^4.3.0",
@@ -12,6 +13,7 @@
     "gulp-filter": "^7.0.0",
     "gulp-imagemin": "^7.1.0",
     "gulp-merge-media-queries": "^0.2.1",
+    "gulp-minify-css": "^1.2.4",
     "gulp-plumber": "^1.2.1",
     "gulp-rigger": "^0.5.8",
     "gulp-sass": "^5.1.0",
@@ -24,7 +26,7 @@
     "gulp.spritesmith": "^6.13.0",
     "imagemin-pngquant": "^9.0.2",
     "path": "^0.12.7",
-    "rimraf": "^4.1.2",
+    "rimraf": "^4.4.0",
     "sass": "^1.58.2"
   },
   "description": "<h2>HTML/SCSS/JS шаблон для новых репозиториев</h2>",
@@ -34,6 +36,7 @@
   },
   "license": "ISC",
   "dependencies": {
+    "glob-watcher": "^5.0.5",
     "resolve-url": "^0.2.1",
     "source-map-resolve": "^0.6.0",
     "source-map-url": "^0.4.1",
